@@ -1,0 +1,34 @@
+{
+  "profileName": "Pure: Magic",
+  "profileNotes": "The Magic Pure build is focused on maximizing magic damage while keeping other combat stats minimal to maintain a low combat level. This build aims for 99 Magic for the highest spell accuracy and damage, making it ideal for activities such as player-versus-player (PvP) combat, magic-based bossing, or high-level spell casting. The Attack level is set at 75 for using high-tier weapons like the Staff of the Dead, which can enhance magic damage. With minimal Defence, Ranged, and Prayer, this build keeps combat level low while specializing in magic-based combat.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 75,
+        "STRENGTH": 40,
+        "DEFENCE": 1,
+        "RANGED": 1,
+        "MAGIC": 99,
+        "HITPOINTS": 70,
+        "PRAYER": 1,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

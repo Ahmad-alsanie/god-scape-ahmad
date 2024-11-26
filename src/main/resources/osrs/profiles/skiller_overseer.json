@@ -1,0 +1,34 @@
+{
+  "profileName": "Skiller: Overseer",
+  "profileNotes": "The Skiller: Overseer is a non-combat build focused on achieving the highest levels in all non-combat skills. This build aims for maximum skill levels across various professions such as Woodcutting, Fishing, Mining, and more, while keeping combat skills at level 1 to maintain the pure skiller status. With 99 in every skilling skill, the Overseer build is perfect for players who enjoy skilling, crafting, and gathering activities, making significant progress in all non-combat skills. The 99 Prayer level provides an additional utility for skilling-related content that requires prayer boosts or protection.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 1,
+        "STRENGTH": 1,
+        "DEFENCE": 1,
+        "RANGED": 1,
+        "MAGIC": 1,
+        "HITPOINTS": 1,
+        "PRAYER": 99,
+        "WOODCUTTING": 99,
+        "FISHING": 99,
+        "MINING": 99,
+        "SMITHING": 99,
+        "COOKING": 99,
+        "FIREMAKING": 99,
+        "CRAFTING": 99,
+        "FLETCHING": 99,
+        "RUNECRAFTING": 99,
+        "HUNTER": 99,
+        "CONSTRUCTION": 99,
+        "AGILITY": 99,
+        "THIEVING": 99,
+        "FARMING": 99,
+        "SLAYER": 1,
+        "HERBLORE": 99,
+        "SAILING": 99
+      }
+    }
+  }
+}

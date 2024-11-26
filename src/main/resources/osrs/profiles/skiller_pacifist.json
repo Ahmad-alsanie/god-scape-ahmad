@@ -1,0 +1,34 @@
+{
+  "profileName": "Skiller: Pacifist",
+  "profileNotes": "The Skiller: Pacifist is a true non-combat build, keeping all combat skills at level 1 while focusing on achieving level 99 in every skilling discipline. This build is ideal for players who want to completely avoid combat and dedicate their gameplay to skilling, crafting, and resource gathering. By maxing out all non-combat skills, the Pacifist can achieve high total level and access various skilling content without ever engaging in combat.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 1,
+        "STRENGTH": 1,
+        "DEFENCE": 1,
+        "RANGED": 1,
+        "MAGIC": 1,
+        "HITPOINTS": 1,
+        "PRAYER": 1,
+        "WOODCUTTING": 99,
+        "FISHING": 99,
+        "MINING": 99,
+        "SMITHING": 99,
+        "COOKING": 99,
+        "FIREMAKING": 99,
+        "CRAFTING": 99,
+        "FLETCHING": 99,
+        "RUNECRAFTING": 99,
+        "HUNTER": 99,
+        "CONSTRUCTION": 99,
+        "AGILITY": 99,
+        "THIEVING": 99,
+        "FARMING": 99,
+        "SLAYER": 1,
+        "HERBLORE": 99,
+        "SAILING": 99
+      }
+    }
+  }
+}

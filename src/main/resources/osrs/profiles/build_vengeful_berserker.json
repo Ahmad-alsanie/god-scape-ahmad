@@ -1,0 +1,34 @@
+{
+  "profileName": "Build: Vengeful Berserker",
+  "profileNotes": "The Venge Zerker build is designed for powerful combos using Vengeance in PvP. With 75 Attack, it can wield godswords, whips, and other high-level weaponry. The 99 Strength maximizes melee damage output, and 45 Defence allows the use of Zerker Helm and other Rune-level gear. 94 Magic is chosen for Vengeance, while 70 Prayer grants access to Piety for increased melee prowess.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 75,
+        "STRENGTH": 99,
+        "DEFENCE": 45,
+        "RANGED": 99,
+        "MAGIC": 94,
+        "HITPOINTS": 99,
+        "PRAYER": 70,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

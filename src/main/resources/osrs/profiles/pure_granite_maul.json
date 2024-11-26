@@ -1,0 +1,34 @@
+{
+  "profileName": "Pure: Granite Maul",
+  "profileNotes": "The Granite Maul Pure build is designed for PvP combat, offering quick and devastating melee attacks. With 50 Attack and 99 Strength, this build focuses on utilizing the Granite Maul's special attack for high burst damage. Defence is kept at 1 to maintain a low combat level, maximizing the damage-to-combat ratio. Ranged and Magic are also trained to 99 to provide versatility and additional damage options. Prayer is set to 31 for access to 'Ultimate Strength,' boosting melee damage further. Recommended equipment includes the Granite Maul, Dragon Scimitar for Attack training, and Mystic or Magic Shortbow gear for ranged and magic versatility.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 50,
+        "STRENGTH": 99,
+        "DEFENCE": 1,
+        "RANGED": 99,
+        "MAGIC": 99,
+        "HITPOINTS": 99,
+        "PRAYER": 31,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

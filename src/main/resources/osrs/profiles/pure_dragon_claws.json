@@ -1,0 +1,34 @@
+{
+  "profileName": "Pure: Dragon Claws",
+  "profileNotes": "The Pure: Dragon Claws build is optimized for high burst damage with Dragon Claws. It features 60 Attack to wield the Dragon Claws, 99 Strength for maximum melee damage, and 82 Magic for access to key spellbook switches. This build excels in PvP scenarios, especially for rushing and high-DPS situations where quick kills are essential. The 52 Prayer unlocks the 'Smite' and 'Protect from Melee' prayers, providing extra utility.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 60,
+        "STRENGTH": 99,
+        "DEFENCE": 1,
+        "RANGED": 1,
+        "MAGIC": 82,
+        "HITPOINTS": 99,
+        "PRAYER": 52,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

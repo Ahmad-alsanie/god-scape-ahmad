@@ -1,0 +1,34 @@
+{
+  "profileName": "Tank: Dragonfire",
+  "profileNotes": "The Tank: Dragonfire build maximizes Defense to absorb damage while using the Dragonfire Shield for its high defensive bonuses and offensive special attack. With 75 Attack, the build can wield powerful weapons like godswords for high-tier melee options. The 99 Ranged and 94 Magic allow for versatile combat styles, including ranged attacks and casting Vengeance. This build is suitable for PvM and PvP scenarios, where being able to tank damage and dish out attacks is crucial.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 75,
+        "STRENGTH": 99,
+        "DEFENCE": 75,
+        "RANGED": 99,
+        "MAGIC": 94,
+        "HITPOINTS": 99,
+        "PRAYER": 70,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

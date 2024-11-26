@@ -1,0 +1,34 @@
+{
+  "profileName": "Pure: Rune",
+  "profileNotes": "The Rune Pure build is designed for players who want to maximize their combat effectiveness while maintaining access to powerful equipment such as Rune armor. With 60 Attack and 99 Strength, the build ensures high melee damage, while 40 Defence allows the use of Rune armor for better defense without significantly raising the combat level. 99 Ranged and Magic provide versatility in combat styles, and 44 Prayer grants access to protection prayers. This build is suitable for PvP and PvM situations where versatility and survivability are important.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 60,
+        "STRENGTH": 99,
+        "DEFENCE": 40,
+        "RANGED": 99,
+        "MAGIC": 99,
+        "HITPOINTS": 99,
+        "PRAYER": 44,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

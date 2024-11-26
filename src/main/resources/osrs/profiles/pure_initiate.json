@@ -1,0 +1,34 @@
+{
+  "profileName": "Pure: Initiate",
+  "profileNotes": "The Initiate Pure build is a versatile PvP-oriented build that focuses on high damage while maintaining low defence to keep the combat level low. With 20 Defence, this build allows the use of Initiate armor, which provides significant Prayer bonuses without significantly raising combat levels. The Attack level is set at 75 for strong weapons such as the Abyssal Whip or Staff of the Dead, while Strength, Ranged, and Magic are trained to 99 for maximum damage output across multiple combat styles. Prayer is set to 52 to unlock 'Smite,' which drains opponents' Prayer in PvP.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 75,
+        "STRENGTH": 99,
+        "DEFENCE": 20,
+        "RANGED": 99,
+        "MAGIC": 99,
+        "HITPOINTS": 99,
+        "PRAYER": 52,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

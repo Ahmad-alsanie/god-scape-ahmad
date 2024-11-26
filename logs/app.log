@@ -1,0 +1,3 @@
+2024-10-11 21:20:36 [main] INFO  com.godscape.LoggingTest - Logging test started.
+2024-10-11 21:20:36 [main] DEBUG com.godscape.LoggingTest - This is a debug message.
+2024-10-11 21:20:36 [main] ERROR com.godscape.LoggingTest - This is an error message.

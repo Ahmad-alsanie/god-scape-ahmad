@@ -1,0 +1,34 @@
+{
+  "profileName": "Skiller: Warmonger",
+  "profileNotes": "The Skiller: Warmonger build focuses on achieving level 99 in all combat skills while keeping non-combat skilling disciplines at a minimum. This build is designed for players who prioritize combat proficiency and aim to master every combat-related aspect of the game. The Warmonger is perfect for PvP, high-level bossing, and Slayer tasks, providing the player with the highest potential for combat efficiency and damage output.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 99,
+        "STRENGTH": 99,
+        "DEFENCE": 99,
+        "RANGED": 99,
+        "MAGIC": 99,
+        "HITPOINTS": 99,
+        "PRAYER": 99,
+        "SLAYER": 99,
+        "WOODCUTTING": 1,
+        "FISHING": 1,
+        "MINING": 1,
+        "SMITHING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "CRAFTING": 1,
+        "FLETCHING": 1,
+        "RUNECRAFTING": 1,
+        "HUNTER": 1,
+        "CONSTRUCTION": 1,
+        "AGILITY": 1,
+        "THIEVING": 1,
+        "FARMING": 1,
+        "HERBLORE": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

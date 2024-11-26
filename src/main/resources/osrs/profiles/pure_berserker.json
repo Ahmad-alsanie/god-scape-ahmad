@@ -1,0 +1,34 @@
+{
+  "profileName": "Pure: Berserker",
+  "profileNotes": "This is a Pure Berserker build designed for high damage output in PvP and PvM scenarios. The primary focus is on maximizing Strength and Ranged while maintaining minimal Defence to stay within PvP combat restrictions. The build also emphasizes high Magic for utility and offensive spellcasting. This setup is ideal for players who enjoy risk-versus-reward combat, with the ability to hit high numbers while staying agile. Recommended equipment includes a Berserker helm, Dragon Scimitar, Rune Crossbow, and Magic Shortbow. This profile aims to reach the specified skill levels while ensuring flexibility in training.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 60,
+        "STRENGTH": 99,
+        "DEFENCE": 45,
+        "RANGED": 99,
+        "MAGIC": 94,
+        "HITPOINTS": 99,
+        "PRAYER": 52,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 70,
+        "WOODCUTTING": 1,
+        "CRAFTING": 61,
+        "HERBLORE": 1,
+        "SLAYER": 55,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 53,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

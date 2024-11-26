@@ -1,0 +1,34 @@
+{
+  "profileName": "Pure: Ranged",
+  "profileNotes": "The Ranged Pure build is focused on maximizing ranged damage output while keeping Defence at level 1 for a low combat level. With 99 Ranged, this build ensures high accuracy and damage with ranged weapons. 75 Attack and 99 Strength allow for melee versatility if needed, but the primary focus is on ranged combat. Hitpoints are kept at 70 to balance survivability while maintaining a lower combat level. This build is ideal for PvP situations where high ranged damage is advantageous.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 75,
+        "STRENGTH": 99,
+        "DEFENCE": 1,
+        "RANGED": 99,
+        "MAGIC": 1,
+        "HITPOINTS": 70,
+        "PRAYER": 1,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

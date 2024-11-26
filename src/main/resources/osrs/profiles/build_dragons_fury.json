@@ -1,0 +1,34 @@
+{
+  "profileName": "Build: Dragon's Fury",
+  "profileNotes": "The Dragon's Fury build specializes in using powerful two-handed weapons to deliver devastating blows. The build is centered around high damage output, trading attack speed for greater impact. With 99 Strength and 99 Attack, it excels in dealing heavy damage. The 60 Defense allows for wearing strong armor, while 70 Prayer enables 'Piety' for increased melee effectiveness. This build is also versatile enough to use the Dragon Warhammer or similar slow, hard-hitting weapons.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 99,
+        "STRENGTH": 99,
+        "DEFENCE": 60,
+        "RANGED": 1,
+        "MAGIC": 82,
+        "HITPOINTS": 99,
+        "PRAYER": 70,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

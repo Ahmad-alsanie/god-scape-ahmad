@@ -1,0 +1,32 @@
+{
+  "profileId": "a0d4b78b-9f3a-45e2-98b4-1c1234567890",
+  "profileName": "Default",
+  "profileNotes": "Reset skill goals.",
+  "skillGoals": {
+    "ATTACK": 1,
+    "STRENGTH": 1,
+    "DEFENCE": 1,
+    "RANGED": 1,
+    "MAGIC": 1,
+    "HITPOINTS": 1,
+    "PRAYER": 1,
+    "FLETCHING": 1,
+    "MINING": 1,
+    "HUNTER": 1,
+    "FARMING": 1,
+    "COOKING": 1,
+    "FIREMAKING": 1,
+    "AGILITY": 1,
+    "WOODCUTTING": 1,
+    "CRAFTING": 1,
+    "HERBLORE": 1,
+    "SLAYER": 1,
+    "CONSTRUCTION": 1,
+    "FISHING": 1,
+    "THIEVING": 1,
+    "RUNECRAFTING": 1,
+    "SMITHING": 1,
+    "SAILING": 1
+  },
+  "settings": {}
+}

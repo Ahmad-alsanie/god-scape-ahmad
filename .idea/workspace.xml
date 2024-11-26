@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Godscape:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54b275fc-cf6d-429f-83d0-fd31a19c5d0d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Godscape_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.profileconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/dreambot/dreambot-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/osbot/osbot.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/runelite/client-1.6.39-shaded.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/runelite/runelite-api-1.6.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sqlite/sqlite-jdbc-3.46.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rebuild.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/BotMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/PlatformAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/cache/OsrsCharacterCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/cache/OsrsProfileCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/cache/backup/OsrsPerformBackup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/cache/backup/OsrsPerformRestore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/controllers/OsrsBackupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/controllers/OsrsCacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/controllers/OsrsCharacterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/controllers/OsrsObservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/controllers/OsrsPreloadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/controllers/OsrsProfilesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/controllers/OsrsSettingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/database/OsrsProfileDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/database/OsrsThemeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/core/OsrsControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/core/OsrsManagers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/core/OsrsPanels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/core/OsrsPreloaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/core/OsrsSchemas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/BankOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/CharacterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/DamageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/DifficultyLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/EnvironmentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/EquipmentSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/GrandExchangeOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/InteractOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/ItemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/LocationName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/OsrsCurrencyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/OsrsSkillNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/Pathfinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/QuestStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/enums/game/VendorOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/OsrsMainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/OsrsFooterPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/OsrsHeaderPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/OsrsMainPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/activity/OsrsActivityManagerPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/adventures/OsrsAdventuresAchievementsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/adventures/OsrsAdventuresBossesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/adventures/OsrsAdventuresDiariesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/adventures/OsrsAdventuresMinigamesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/adventures/OsrsAdventuresMoneyMakingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/adventures/OsrsAdventuresQuestsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/adventures/OsrsAdventuresSlayerTasksPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/adventures/OsrsAdventuresTreasureTailsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/analytics/OsrsAnalyticsCharacterDetailsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/finances/OsrsFinancesBankPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/finances/OsrsFinancesGoldPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/finances/OsrsFinancesGrandExchangePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/finances/OsrsFinancesLootPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/finances/OsrsFinancesMulePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/finances/OsrsFinancesWalletPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/OsrsLoadoutsStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/dragons/OsrsLoadoutsDragonsConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/dragons/OsrsLoadoutsDragonsEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/exploration/OsrsLoadoutsExplorationConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/exploration/OsrsLoadoutsExplorationEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/magic/OsrsLoadoutsMagicConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/magic/OsrsLoadoutsMagicEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/melee/OsrsLoadoutsMeleeConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/melee/OsrsLoadoutsMeleeEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/metal/OsrsLoadoutsMetalDragonsConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/metal/OsrsLoadoutsMetalDragonsEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/ranged/OsrsLoadoutsRangedConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/loadouts/ranged/OsrsLoadoutsRangedEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/settings/OsrsSettingsPathfindingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/settings/OsrsSettingsProfileSyncPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/settings/OsrsSettingsThemesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/settings/antibot/OsrsSettingsAntiBotDetectionConfigPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/settings/antibot/OsrsSettingsAntiBotDetectionSlidersPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/artisan/OsrsSkillingArtisanConstructionPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/artisan/OsrsSkillingArtisanCookingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/artisan/OsrsSkillingArtisanCraftingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/artisan/OsrsSkillingArtisanFletchingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/artisan/OsrsSkillingArtisanHerblorePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/artisan/OsrsSkillingArtisanSmithingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/combat/OsrsSkillingCombatMagicPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/combat/OsrsSkillingCombatMeleePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/combat/OsrsSkillingCombatPrayerPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/combat/OsrsSkillingCombatRangedPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/combat/OsrsSkillingCombatSlayerPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/gathering/OsrsSkillingGatheringFarmingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/gathering/OsrsSkillingGatheringFishingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/gathering/OsrsSkillingGatheringHunterPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/gathering/OsrsSkillingGatheringMiningPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/gathering/OsrsSkillingGatheringRunecraftingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/gathering/OsrsSkillingGatheringWoodcuttingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/support/OsrsSkillingSupportAgilityPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/support/OsrsSkillingSupportFiremakingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/support/OsrsSkillingSupportSailingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/skilling/support/OsrsSkillingSupportThievingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/stats/OsrsStatsLevelingTweaksPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/stats/OsrsStatsSkillGoalsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/OsrsWildernessStrategyPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/dragons/OsrsWildernessDragonsConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/dragons/OsrsWildernessDragonsEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/exploration/OsrsWildernessExplorationConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/exploration/OsrsWildernessExplorationEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/magic/OsrsWildernessMagicConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/magic/OsrsWildernessMagicEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/melee/OsrsWildernessMeleeConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/melee/OsrsWildernessMeleeEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/metal/OsrsWildernessMetalDragonsConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/metal/OsrsWildernessMetalDragonsEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/ranged/OsrsWildernessRangedConsumablesPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/frames/panels/wilderness/ranged/OsrsWildernessRangedEquipmentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/OsrsBackupManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/OsrsCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/OsrsCharacterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/OsrsObservationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/OsrsPreloadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/OsrsProfilesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/OsrsSchemaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/OsrsSettingsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/OsrsFooterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/OsrsHeaderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/settings/OsrsSettingsPathfindingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/settings/OsrsThemesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/settings/antibot/OsrsSettingsAntiBotDetectionConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/skilling/OsrsSkillingCombatMagicManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/skilling/OsrsSkillingCombatMeleeManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/stats/OsrsSkillGoalsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/managers/panels/stats/OsrsTweaksManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/observations/OsrsProfileChangeObservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/platforms/dreambot/DreamBotAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/platforms/osbot/OSBotAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/preloaders/OsrsCurrentStatsProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/preloaders/OsrsDefaultProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/preloaders/OsrsLevelSpreadProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/preloaders/OsrsLoadPremadeProfilesToCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/preloaders/OsrsPreloadLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/preloaders/OsrsPremadeProfilesPreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsAchievementSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsBossSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsCharacterSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsDiarySchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsEquipmentSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsGrandExchangeOffers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsItemSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsMonsterSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsProfileSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/schemas/OsrsQuestSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/utility/DreamBotShutdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/utility/OsrsBackupToJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/utility/OsrsBackupToXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/utility/OsrsGridBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/utility/OsrsKeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/utility/OsrsRestoreFromJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/osrs/utility/OsrsRestoreFromXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/cache/Rs3CharacterCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/cache/Rs3ProfileCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/cache/backup/Rs3PerformBackup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/cache/backup/Rs3PerformRestore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/controllers/Rs3BackupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/controllers/Rs3CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/controllers/Rs3CharacterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/controllers/Rs3ObservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/controllers/Rs3ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/controllers/Rs3ProfilesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/controllers/Rs3SettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/database/Rs3ProfileDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/database/Rs3ThemeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/enums/core/Rs3Controllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/enums/core/Rs3Managers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/enums/core/Rs3Panels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/enums/core/Rs3Preloaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/enums/core/Rs3Schemas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/enums/game/Rs3SkillNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/frames/Rs3MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/frames/panels/Rs3FooterPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/frames/panels/Rs3HeaderPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/frames/panels/Rs3MainPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/frames/panels/skills/Rs3SkillGoalsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/frames/panels/skills/Rs3TweaksPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/managers/Rs3BackupManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/managers/Rs3CacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/managers/Rs3ObservationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/managers/Rs3PreloadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/managers/Rs3ProfilesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/managers/Rs3SchemaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/managers/Rs3SettingsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/observations/Rs3ProfileChangeObservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/preloaders/Rs3CurrentStatsProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/preloaders/Rs3DefaultProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/preloaders/Rs3LevelSpreadProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/preloaders/Rs3LoadPremadeProfilesToCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/preloaders/Rs3PremadeProfilesPreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/preloaders/Rs3ProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/schemas/Rs3CharacterSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/schemas/Rs3ProfileSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/utility/Rs3BackupToJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/utility/Rs3BackupToXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/utility/Rs3GridBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/utility/Rs3KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/utility/Rs3RestoreFromJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/rs3/utility/Rs3RestoreFromXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/annotations/AnnotationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/annotations/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/annotations/SchemaField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/annotations/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/GlobalSettingsCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/ProfileCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/ThemeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/backup/BackupToJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/backup/BackupToXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/backup/PerformBackup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/backup/PerformRestore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/backup/RestoreFromJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/cache/backup/RestoreFromXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/config/GodscapeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/config/HazelcastConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/config/SQLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/controllers/BaseBackupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/controllers/BaseObservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/controllers/BotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/controllers/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/controllers/PlatformController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/controllers/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/controllers/SettingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/BotState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/ComponentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/ConfigKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Configs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Controllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Factories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Frames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/GameVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Interfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Managers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Modules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Observations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Panels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Platforms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Preloaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Registries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Schemas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Themes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/enums/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/CacheFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/ControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/DependencyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/FrameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/InjectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/InterfaceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/ManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/ObservationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/PanelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/PlatformFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/PreloadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/SchemaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/SerializableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/SettingsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/ThemeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/factories/UtilityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/frames/DebugFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/frames/panels/DebugPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/frames/panels/PanelComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/fuse/ObservationFuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/fuse/ProfileFuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/fuse/SchemaFuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/fuse/SettingsFuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Backupable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Cacheable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Configurable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Controllable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Databaseable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Excludable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Frameable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Injectable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Manageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Preloadable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Saveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Schemable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Serializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Shutdownable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Synchronizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/mark/Themeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/tools/DependencyProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/interfaces/tools/GameVersionDetect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/BaseBackupManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/BaseObservationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/BotManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/CacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/CharacterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/GlobalSettingsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/PlatformManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/PreloadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/ProfileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/SettingsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/ThemeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/managers/panels/DebugManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/DatabaseModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/database/BaseSchemaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/database/DatabaseConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/database/DatabaseSchemaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/database/ProfileSchemaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/database/ThemeSchemaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/database/TriggerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/database/queries/BaseProfileDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/modules/database/queries/BaseThemeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/AdaptiveListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/BaseProfileChangeObservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/BotStateListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/BotStateObservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/ProfileChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/ProfileChangeObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/ProfileUpdateScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/ThemeChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/observers/ThemeChangeObservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/preloaders/BaseProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/preloaders/GlobalSettingsPreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/preloaders/RoundUpProfilePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/preloaders/ThemePreloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/ConfigRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/ControllerRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/DependencyRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/FactoryRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/FramesRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/InterfaceRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/ManagersRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/ObservationRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/PanelRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/PlatformRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/PreloaderRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/SchemaRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/SettingRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/ThemeRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/registries/UtilityRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/schemas/BaseSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/schemas/GlobalSettingsSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/schemas/ThemeSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/BaseEmptyPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/ComingSoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/DefaultSettingsTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/EmptyPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/EmptyPanel2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/EmptyPanel3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/EmptyPanel4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/EmptyPanel5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/EmptyPanel6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/GlobalSettingFileTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/SessionEndTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/SessionStartTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/templates/WelcomeScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/RenderObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/ThemeAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/ThemeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/abyssal/AbyssalTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/arctic/ArcticTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/aurora/AuroraTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/celestial/CelestialTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/cyberpunk/CyberpunkTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/dark/DarkTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/dawnbreak/DawnbreakTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/dunescar/DunescarTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/frostfall/FrostfallTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/heartswake/HeartswakeTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/light/LightTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/neon/NeonTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/oceanic/OceanicTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/sandbox/SandboxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/sandbox/SandboxTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/sandbox/objects/Backdrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/sandbox/scenes/SandboxBackground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/sandbox/scenes/SandboxForeground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/sandbox/scenes/SandboxMidground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/shadowfest/ShadowfestTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/springtide/SpringtideTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/steampunk/SteampunkTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/stygian/StygianTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/viridian/ViridianTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/themes/volcanic/VolcanicTheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/BotInitialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/BotMainLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/BotTerminate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/CacheExpunge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/EnumTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/ExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/FrameCustomize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/LazyTabPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/ManualIOBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/PanelComponentReflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/PanelSeparate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/ProfilesListTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/ResourceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/RuntimeTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/SQLProfiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/SQLUpdateProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/SchemaProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/Separate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/StringConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/SystemTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/TabNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/TreeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/UpdateProfilesTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/XMLTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/builders/BaseComponentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/builders/BaseGridBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/builders/CustomGridPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/builders/DualGridBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/builders/FileSystemBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/builders/PathBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/generators/BaseKeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/generators/HashGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/grid/BaseGridBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/grid/ComponentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/validation/ExtractFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/validation/MapStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/validation/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/validation/Normalization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/validation/SchemaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godscape/system/utility/validation/SkillClamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazelcast/internal/networking/nio/iobalancer/CustomIOBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazelcast/internal/networking/nio/iobalancer/PipelineManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hazelcast/internal/networking/nio/iobalancer/RemovePipelineTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/agility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/coins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/construction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/cooking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/crafting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/defence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/farming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/firemaking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/fishing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/fletching.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/herblore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/hitpoints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/hunter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/magic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/mining.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/planet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/prayer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/ranged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/runecrafting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/slayer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/smithing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/strength.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/thieving.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/icons/woodcutting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/build_blood_mage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/build_chaos_druid.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/build_dragons_fury.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/build_tactical_assassin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/build_trinity_killer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/build_vengeful_berserker.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/build_warhammer_specialist.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_berserker.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_clan_wars.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_dragon_claws.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_glass_cannon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_granite_maul.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_initiate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_magic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_obsidian.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_piety.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_ranged.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_rune.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/pure_void.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/skiller_overseer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/skiller_pacifist.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/skiller_warmonger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/tank_dragonfire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/tank_magic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/tank_mystic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/tank_poison.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/tank_ranged.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/osrs/profiles/tank_utility.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/backup/OrbitPhysics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/backup/Planets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/backup/Sun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/godscape/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/godscape/HazelcastTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/godscape/LoggingTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Kotlin Class" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="300" />
+    </hideBySeverity>
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2nFz8Is82SSrMuqXZfaAxbyS8wf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CacheMemoryTest.executor": "Run",
+    "Application.LoggingTest.executor": "Run",
+    "JUnit.All in Godscape (1).executor": "Debug",
+    "JUnit.All in Godscape.executor": "Debug",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Godscape.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindow.Build.ShowToolbar": "false",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ahmad/IdeaProjects/godscape-ahmad/godscape-ahmad",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.41034484",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "sql.codeStylePanel.last.previewDialect": "H2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Godscape\src\main\java\com\godscape\osrs\frames\panels\loadouts\exploration" />
+      <recent name="D:\Godscape\src\main\java\com\godscape\osrs\frames\panels\loadouts\ranged" />
+      <recent name="D:\Godscape\src\main\java\com\godscape\osrs\frames\panels\loadouts\metal" />
+      <recent name="D:\Godscape\src\main\java\com\godscape\osrs\frames\panels\loadouts\melee" />
+      <recent name="D:\Godscape\src\main\java\com\godscape\osrs\frames\panels\loadouts\magic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Godscape 3\src\main\java\com\godscape\system\interfaces\extend" />
+      <recent name="D:\checkpoint\src\main\java\com\godscape\system\enums" />
+      <recent name="D:\7. theme system super good progress - Copy\src\test\backup" />
+      <recent name="D:\Godscape\src\test" />
+      <recent name="C:\Users\dephe\[code]\[backup]\Godscape\src\main\resources\rs3\" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.godscape.osrs.cache" />
+      <recent name="com.godscape.system.preloaders" />
+      <recent name="com.godscape.system.templates" />
+      <recent name="com.godscape.rs3.frames" />
+      <recent name="com.godscape.osrs.enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in Godscape">
+    <configuration name="All in Godscape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Godscape" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Godscape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Godscape" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="WORKING_DIRECTORY" value="C:\Users\dephe\Godscape" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All Tests" type="JavaScriptTestRunnerCypress" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <cypress-options value="-q" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Godscape" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="JUnit.All in Godscape" />
+      <item itemvalue="Maven.Godscape" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in Godscape" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54b275fc-cf6d-429f-83d0-fd31a19c5d0d" name="Changes" comment="" />
+      <created>1728583453994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728583453994</updated>
+      <workItem from="1728583455144" duration="11256000" />
+      <workItem from="1728616432367" duration="30602000" />
+      <workItem from="1728647572614" duration="10582000" />
+      <workItem from="1728658554572" duration="847000" />
+      <workItem from="1728662080211" duration="486000" />
+      <workItem from="1728662635201" duration="120000" />
+      <workItem from="1728662782144" duration="107000" />
+      <workItem from="1728665909412" duration="167360000" />
+      <workItem from="1728929507671" duration="36503000" />
+      <workItem from="1728988998393" duration="52982000" />
+      <workItem from="1729103464079" duration="1673000" />
+      <workItem from="1729112096828" duration="18510000" />
+      <workItem from="1729153856681" duration="7728000" />
+      <workItem from="1729186272405" duration="468000" />
+      <workItem from="1729186783311" duration="49183000" />
+      <workItem from="1729283260786" duration="4347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

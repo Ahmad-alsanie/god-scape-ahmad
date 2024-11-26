@@ -1,0 +1,34 @@
+{
+  "profileName": "Pure: Piety",
+  "profileNotes": "The Piety Pure build focuses on maximizing melee damage while utilizing the Piety prayer to boost Attack, Strength, and Defence. With 70 Defence, 75 Attack, and 99 Strength, this build allows the use of powerful melee gear and prayers for high offensive and defensive capabilities. The inclusion of 70 Prayer is specifically to unlock the Piety prayer, and 99 Ranged and Magic provide versatility for various combat situations.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 75,
+        "STRENGTH": 99,
+        "DEFENCE": 70,
+        "RANGED": 99,
+        "MAGIC": 99,
+        "HITPOINTS": 99,
+        "PRAYER": 70,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 1,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

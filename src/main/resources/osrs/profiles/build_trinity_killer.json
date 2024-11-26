@@ -1,0 +1,34 @@
+{
+  "profileName": "Build: Triforce Slayer",
+  "profileNotes": "The Triforce Slayer build is a versatile build designed for efficient Slayer training with the ability to switch between melee, ranged, and magic setups. With 75 Attack, 99 Strength, 99 Ranged, and 99 Magic, this build can handle a variety of PvM content. The 70 Defence and 70 Prayer allow for using higher-level gear and the 'Piety' prayer, making it effective for all types of combat styles.",
+  "settingsMap": {
+    "statSettings": {
+      "skillGoals": {
+        "ATTACK": 75,
+        "STRENGTH": 99,
+        "DEFENCE": 70,
+        "RANGED": 99,
+        "MAGIC": 99,
+        "HITPOINTS": 99,
+        "PRAYER": 70,
+        "FLETCHING": 1,
+        "MINING": 1,
+        "HUNTER": 1,
+        "FARMING": 1,
+        "COOKING": 1,
+        "FIREMAKING": 1,
+        "AGILITY": 1,
+        "WOODCUTTING": 1,
+        "CRAFTING": 1,
+        "HERBLORE": 1,
+        "SLAYER": 99,
+        "CONSTRUCTION": 1,
+        "FISHING": 1,
+        "THIEVING": 1,
+        "RUNECRAFTING": 1,
+        "SMITHING": 1,
+        "SAILING": 1
+      }
+    }
+  }
+}

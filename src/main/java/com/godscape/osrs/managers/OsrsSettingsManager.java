@@ -2,6 +2,7 @@ package com.godscape.osrs.managers;
 
 import com.godscape.osrs.controllers.OsrsCacheController;
 import com.godscape.osrs.enums.core.OsrsSchemas;
+import com.godscape.osrs.schemas.OsrsProfileSchema;
 import com.godscape.system.annotations.Singleton;
 import com.godscape.system.factories.DependencyFactory;
 import com.godscape.system.interfaces.fuse.SettingsFuse;
@@ -159,4 +160,31 @@ public class OsrsSettingsManager implements SettingsFuse {
             Logger.warn("OsrsSettingsManager: Unsupported component type '{}'", component.getClass());
         }
     }
+
+    public OsrsProfileSchema getActiveProfile() {
+        if (activeProfileId == null) {
+            Logger.error("OsrsSettingsManager: No active profile ID set.");
+            return null;
+        }
+
+        // Use the cache controller to get the profile from the cache.
+        OsrsProfileSchema profile = cacheController.getProfile(activeProfileId);
+        if (profile == null) {
+            Logger.error("OsrsSettingsManager: No profile found with the active profile ID '{}'", activeProfileId);
+        }
+        return profile;
+    }
+
+    public void updateProfile(OsrsProfileSchema profile) {
+        if (profile == null || profile.getProfileId() == null) {
+            Logger.error("OsrsSettingsManager: Cannot update null profile or profile with null ID.");
+            return;
+        }
+
+        cacheController.updateProfile(profile);  // Update profile in cache
+        Logger.info("OsrsSettingsManager: Updated profile with ID '{}'.", profile.getProfileId());
+    }
+
+
+
 }

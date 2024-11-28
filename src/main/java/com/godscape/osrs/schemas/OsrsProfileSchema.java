@@ -73,7 +73,6 @@ public class OsrsProfileSchema implements IdentifiedDataSerializable, BaseSchema
         }
     }
 
-    // Filters out reserved fields to prevent overwriting key fields
     private Map<String, Object> filterReservedFields(Map<String, Object> originalMap) {
         Map<String, Object> filteredMap = new HashMap<>(originalMap);
         filteredMap.remove("profileId");
@@ -107,6 +106,7 @@ public class OsrsProfileSchema implements IdentifiedDataSerializable, BaseSchema
             categoryMap.put(key, value);
         }
 
+        // After modifying the nested map, flatten it back to settingsMap
         settingsMap = filterReservedFields(MapStructure.flattenMap(nestedMap, ""));
     }
 
@@ -135,15 +135,6 @@ public class OsrsProfileSchema implements IdentifiedDataSerializable, BaseSchema
         fields.put("profileName", profileName);
         fields.put("lastUpdated", lastUpdated);
         return fields;
-    }
-
-    public static Map<String, String> getColumnDefinitions() {
-        Map<String, String> columns = new LinkedHashMap<>();
-        columns.put("profile_id", "TEXT PRIMARY KEY");
-        columns.put("profile_name", "VARCHAR(255)");
-        columns.put("settings_map", "TEXT");
-        columns.put("last_updated", "BIGINT");
-        return columns;
     }
 
     @Override
@@ -175,4 +166,23 @@ public class OsrsProfileSchema implements IdentifiedDataSerializable, BaseSchema
     public int getClassId() {
         return SerializableFactory.OSRS_PROFILE_SCHEMA_ID;
     }
+
+    public static Map<String, String> getColumnDefinitions() {
+        Map<String, String> columns = new LinkedHashMap<>();
+        columns.put("profile_id", "UUID PRIMARY KEY"); // Ensure profile_id is a UUID type, or text if needed.
+        columns.put("profile_name", "VARCHAR(255)");
+        columns.put("last_updated", "BIGINT");
+        columns.put("settings_map", "TEXT"); // Assuming settings_map is serialized as JSON.
+        return columns;
+    }
+
+    public void updateSkillGoal(String skillName, int value) {
+        Map<String, Integer> skillGoals = getSkillMap();
+        skillGoals.put(skillName, Normalization.clampSkillLevel(value, skillName));
+        setSkillMap(skillGoals);  // This will re-flatten the map properly
+    }
+
+
+
+
 }

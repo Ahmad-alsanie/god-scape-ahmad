@@ -4,6 +4,8 @@ import com.godscape.osrs.controllers.OsrsSettingsController;
 import com.godscape.osrs.enums.core.OsrsPanels;
 import com.godscape.osrs.enums.core.OsrsSchemas;
 import com.godscape.osrs.enums.game.OsrsSkillNames;
+import com.godscape.osrs.listeners.SettingsChangeListener;
+import com.godscape.osrs.schemas.OsrsProfileSchema;
 import com.godscape.osrs.utility.OsrsGridBuilder;
 import com.godscape.system.factories.DependencyFactory;
 import com.godscape.system.utility.Logger;
@@ -20,7 +22,7 @@ import java.awt.event.FocusEvent;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OsrsStatsSkillGoalsPanel extends JPanel {
+public class OsrsStatsSkillGoalsPanel extends JPanel implements SettingsChangeListener {
 
     private static final int MAX_LEVEL = 126;
     private static final int SKILLS_PER_ROW = 3;
@@ -36,7 +38,7 @@ public class OsrsStatsSkillGoalsPanel extends JPanel {
         setBorder(new EmptyBorder(10, 10, 10, 10));
 
         settingsController = DependencyFactory.getInstance().getInjection(OsrsSettingsController.class);
-
+        settingsController.addSettingsChangeListener(this);
         gridBuilder = new OsrsGridBuilder(OsrsPanels.OSRS_STATS_SKILL_GOALS_PANEL);
         gridBuilder.addSeparator("Skill Goal Settings");
         gridBuilder.nextRow();
@@ -96,15 +98,45 @@ public class OsrsStatsSkillGoalsPanel extends JPanel {
                     if (value < minValue) {
                         goalField.setText(String.valueOf(minValue));
                     }
-                    Logger.debug("Updating skill '{}' to '{}'", skill.name(), value);
+                    Logger.debug("Updating skill '{}' to '{}'", skill.getSkillName(), value);
 
-                    // Confirming the panel and componentId values in debug logs
-                    Logger.debug("Saving setting with panel '{}', skill '{}'", OsrsPanels.OSRS_STATS_SKILL_GOALS_PANEL, skill.name());
-                    settingsController.saveSetting(OsrsPanels.OSRS_STATS_SKILL_GOALS_PANEL, skill.name(), value); // Save setting via settings controller
+                    // Get the current active profile from the settings controller
+                    OsrsProfileSchema currentProfile = settingsController.getActiveProfile();
+
+                    if (currentProfile != null) {
+                        // Update skill goal in the current profile
+                        currentProfile.updateSkillGoal(skill.name().toLowerCase(), value);
+                        Logger.info("Skill goal for '{}' updated to '{}'", skill.getSkillName(), value);
+
+                        // Save the updated profile
+                        settingsController.updateProfile(currentProfile);
+                    } else {
+                        Logger.error("No active profile found to update skill goal.");
+                    }
+
                 } catch (NumberFormatException ex) {
                     goalField.setText(String.valueOf(minValue));
-                    Logger.warn("Invalid input for '{}', resetting to '{}'", skill.name(), minValue);
+                    Logger.warn("Invalid input for '{}', resetting to '{}'", skill.getSkillName(), minValue);
                 }
+            }
+        });
+    }
+
+
+    @Override
+    public void onSettingsChanged() {
+        // Code to refresh/update the panel with new settings
+        updateGoalsFromSettings();
+        Logger.info("OsrsStatsSkillGoalsPanel: Settings changed. Panel updated.");
+    }
+
+    private void updateGoalsFromSettings() {
+        // Load the new skill goals from the settingsController and update the UI components
+        Map<String, Integer> updatedGoals = settingsController.loadSkillGoals();
+        updatedGoals.forEach((skill, value) -> {
+            JTextField goalField = skillFields.get(skill);
+            if (goalField != null) {
+                goalField.setText(String.valueOf(value));
             }
         });
     }

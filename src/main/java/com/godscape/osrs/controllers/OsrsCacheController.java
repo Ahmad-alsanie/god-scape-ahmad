@@ -43,8 +43,12 @@ public class OsrsCacheController {
 
     public boolean updateProfile(OsrsProfileSchema profile) {
         boolean updated = cacheManager.updateProfileInCache(profile);
-        Logger.info(updated ? "OsrsCacheController: Updated profile '{}' in cache." :
-                "OsrsCacheController: Profile '{}' update failed.", profile.getProfileId());
+        if (updated) {
+            Logger.info("OsrsCacheController: Updated profile '{}' in cache.", profile.getProfileId());
+            notifyProfileUpdate(profile); // Notify listeners about profile update
+        } else {
+            Logger.error("OsrsCacheController: Profile '{}' update failed.", profile.getProfileId());
+        }
         return updated;
     }
 
@@ -70,8 +74,12 @@ public class OsrsCacheController {
 
         settingsMap.put(componentId.toLowerCase(), value);
         boolean updated = cacheManager.updateProfileInCache(profile);
-        Logger.info(updated ? "OsrsCacheController: Setting '{}' saved to profile cache." :
-                "OsrsCacheController: Failed to save setting '{}' to profile cache.", componentId);
+        if (updated) {
+            notifyProfileUpdate(profile); // Notify listeners about the setting update
+            Logger.info("OsrsCacheController: Setting '{}' saved to profile cache.", componentId);
+        } else {
+            Logger.error("OsrsCacheController: Failed to save setting '{}' to profile cache.", componentId);
+        }
     }
 
     public Object loadFromProfileCache(UUID profileId, String componentId) {
@@ -191,5 +199,13 @@ public class OsrsCacheController {
     public void shutdownCache() {
         clearCache();
         Logger.info("OsrsCacheController: Cache shutdown complete.");
+    }
+
+    // Private Methods for Notifying Profile Updates
+    private void notifyProfileUpdate(OsrsProfileSchema profile) {
+        // This method is used to notify listeners that a profile has been updated.
+        // You need to implement this logic to trigger appropriate updates in other components (e.g., UI listeners).
+        Logger.info("OsrsCacheController: Notifying listeners about profile update for '{}'", profile.getProfileId());
+        // Add code here to notify listeners
     }
 }

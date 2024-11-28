@@ -39,7 +39,11 @@ public class MapStructure {
         for (Map.Entry<String, Object> entry : map.entrySet()) {
             String key = parentKey.isEmpty() ? entry.getKey().toLowerCase() : parentKey + "_" + entry.getKey().toLowerCase();
             Object value = entry.getValue();
-            if (value instanceof Map) {
+
+            // Keep specific keys like "osrs_stats_skill_goals_panel" as nested maps
+            if (key.equals("osrs_stats_skill_goals_panel") && value instanceof Map) {
+                flatMap.put(key, value);  // Keep this panel as a nested map instead of flattening
+            } else if (value instanceof Map) {
                 flatMap.putAll(flattenMap((Map<String, Object>) value, key));
             } else {
                 flatMap.put(key, value);
@@ -51,12 +55,21 @@ public class MapStructure {
     public static Map<String, Object> unflattenMap(Map<String, Object> flatMap) {
         Map<String, Object> nestedMap = new LinkedHashMap<>();
         for (Map.Entry<String, Object> entry : flatMap.entrySet()) {
-            String[] keys = entry.getKey().toLowerCase().split("_"); // Normalize to lowercase
+            String key = entry.getKey().toLowerCase();
+            Object value = entry.getValue();
+
+            // If the value is still a map, we don't need to unflatten it further
+            if (value instanceof Map) {
+                nestedMap.put(key, value);
+                continue;
+            }
+
+            String[] keys = key.split("_");
             Map<String, Object> currentMap = nestedMap;
             for (int i = 0; i < keys.length - 1; i++) {
                 currentMap = (Map<String, Object>) currentMap.computeIfAbsent(keys[i], k -> new LinkedHashMap<>());
             }
-            currentMap.put(keys[keys.length - 1], entry.getValue());
+            currentMap.put(keys[keys.length - 1], value);
         }
         return nestedMap;
     }
